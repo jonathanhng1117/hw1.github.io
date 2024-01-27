@@ -12,6 +12,9 @@ body {
   background-color: #ff9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* main page title styling */
@@ -28,12 +31,13 @@ img {
   display: block; /* give image block-level behavior*/
   margin: 0 auto;
 }
+
+/*text styling*/
 p,
 li {
   width: 500px;
   font-size: 16px;
-  font-family: "Times New Roman", sans-serif;
-  color: grey;
+  color: black;
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -41,6 +45,8 @@ li {
 ol,
 ul {
   size: 30;
+  font-family: "Times New Roman", sans-serif;
+  color: grey;
 }
 
 
