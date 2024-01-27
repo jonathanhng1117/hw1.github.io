@@ -42,7 +42,7 @@ myButton.onclick = () => {
 };
 
 // add a button that does nothing
-myButton2.onclick = () => {
-    alert("You did absolutely nothing.")
-}
+myButton2.addEventListener('click', function() {
+    alert("You did absolutely nothing.");
+});
   
