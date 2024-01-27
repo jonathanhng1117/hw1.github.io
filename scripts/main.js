@@ -33,7 +33,7 @@ if (!localStorage.getItem("name")) {
     setUserName();
 } else {
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Cheese is good, ${storedName}`;
+    myHeading.textContent = `My name is Jonathan Hong and I like cheese, ${storedName}`;
 }
 
 // add a set username button
