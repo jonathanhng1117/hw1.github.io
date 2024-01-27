@@ -1,0 +1,47 @@
+/* full page styling*/
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Merriweather", serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #EEE48A; /*color of the whole page*/
+  }
+  
+/* body styling */
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+/* main page title styling */
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  }
+/* center the image */
+img {
+    display: block; /* give image block-level behavior*/
+    margin: 0 auto;
+  }
+p,
+li {
+    width: 500px;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+
+ol,
+ul {
+    size: 30;
+}
+
+
+
+  
