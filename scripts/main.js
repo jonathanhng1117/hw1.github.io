@@ -12,6 +12,7 @@ myImage.onclick = () => {
 
 // references to the new button and heading
 let myButton = document.querySelector("button");
+let myButton2 = document.querySelector("button.nothing")
 let myHeading = document.querySelector("h1");
 
 // function to set username 
@@ -23,7 +24,7 @@ function setUserName() {
         setUserName();
     } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Cheese is good, ${myName}`;
+    myHeading.textContent = `My name is Jonathan Hong and I like cheese, ${myName}`;
   }
 }
 
@@ -39,4 +40,9 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 };
+
+// add a button that does nothing
+myButton2.onclick = () => {
+    alert("You did absolutely nothing.")
+}
   
